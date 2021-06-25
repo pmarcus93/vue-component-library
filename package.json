@@ -2,12 +2,12 @@
   "name": "vue-lib-pkg",
   "version": "0.1.0",
   "private": true,
-  "main": "./dist/getrak-dsp-vue.common.js",
+  "main": "./dist/vue-component-library.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-lib": "vue-cli-service build --target lib --name getrak-dsp-vue src/main.js"
+    "build-lib": "vue-cli-service build --target lib --name vue-component-library src/main.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
