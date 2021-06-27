@@ -1,8 +1,9 @@
 {
-  "name": "vue-lib-pkg",
+  "name": "vue-component-library",
   "version": "0.1.0",
   "private": true,
-  "main": "./dist/vue-component-library.common.js",
+  "main": "./dist/vue-component-library.umd.js",
+  "unpkg": "/dist/vue-component-library.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
